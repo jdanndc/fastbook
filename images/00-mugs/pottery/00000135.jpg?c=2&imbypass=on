@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+	
+
+	<title>JataShop - Not Found</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Shop for home decor &amp; home accessories. Decorate your home with sculptures, statues, wall decor, kitchen &amp; bath accessories, candle holders and more!" />
+	<meta name="keywords" content="shop for decor, home accessories, home decor, home furnishings, home accents" />
+	
+	
+	
+	
+	<meta name='robots' content='noindex, nofollow' />
+	<link href="//fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="https://cdn11.bigcommerce.com/s-oo0gdojvjo/product_images/favicon-32x32.jpg?t=1579618029" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script>
+	//<![CDATA[
+		(function(){
+			// this happens before external dependencies (and dom ready) to reduce page flicker
+			var node, i;
+			for (i = window.document.childNodes.length; i--;) {
+				node = window.document.childNodes[i];
+				if (node.nodeName == 'HTML') {
+					node.className += ' javascript';
+				}
+			}
+		})();
+	//]]>
+	</script>
+
+	<link href="https://cdn11.bigcommerce.com/r-3b68d717e18793df0b51c71e16bc24664ad18b7c/themes/__master/Styles/styles.css" type="text/css" rel="stylesheet" /><link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/iselector.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/flexslider.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/styles-slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/social.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/styles.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/light.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/theme.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/grid.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/responsive.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/Styles/font-awesome.css" media="all" type="text/css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" href="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/jquery/plugins/imodal/imodal.css" />
+<link type="text/css" rel="preload" as="style" href="https://cdn11.bigcommerce.com/r-3b68d717e18793df0b51c71e16bc24664ad18b7c/themes/__master/Styles/braintree.css" onload="this.rel='stylesheet'" />
+
+	<!-- Tell the browsers about our RSS feeds -->
+	
+
+	<!-- Include visitor tracking code (if any) -->
+	<!-- Start Tracking Code for analytics_facebook -->
+
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('set', 'autoConfig', 'false', '2393199934097009');
+fbq('dataProcessingOptions', ['LDU'], 0, 0);
+fbq('init', '2393199934097009');
+fbq('set', 'agent', 'plbigcommerce1.2', '2393199934097009');
+
+window.onload = function() {
+    var productIdMap = {},
+        productIdsOnPage = getUniqueProductIdsOnPage(),
+        pathName = window.location.pathname;
+
+    fbq('track', 'PageView', {}, "");
+
+    // Search events start -- only fire if the shopper lands on the /search.php page
+    if (pathName.indexOf('/search.php') === 0 && getUrlParameter('search_query')) {
+        fbq('track', 'Search', {
+            content_ids: productIdsOnPage,
+            search_string: getUrlParameter('search_query')
+        });
+    }
+    // Search events end
+
+    // Wishlist events start -- only fire if the shopper attempts to add an item to their wishlist
+    if (pathName.indexOf('/wishlist.php') === 0 && getUrlParameter('added_product_id')) {
+        fbq('track', 'AddToWishlist', {
+            content_ids: [getUrlParameter('added_product_id')]
+        });
+    }
+    // Wishlist events end
+
+    // Lead events start -- only fire if the shopper subscribes to newsletter
+    if (pathName.indexOf('/subscribe.php') === 0 && getUrlParameter('result') === 'success') {
+        fbq('track', 'Lead', {});
+    }
+    // Lead events end
+
+    // Registration events start -- only fire if the shopper registers an account
+    if (pathName.indexOf('/login.php') === 0 && getUrlParameter('action') === 'account_created') {
+        fbq('track', 'CompleteRegistration', {}, "");
+    }
+    // Registration events end
+
+    // Checkout events start -- only fire if the shopper lands on a /checkout* page
+    if (pathName === '/checkout.php' || /^\/(embedded-)?checkout$/.test(pathName)) {
+        window.sessionStorage.setItem('fb_conversion_key_56e909d8-f09c-4bee-bd9a-022c26d6ba21', 'true');
+
+        if (getUrlParameter('action') === 'process_payment') {
+            fbq('track', 'AddPaymentInfo');
+        } else {
+            fbq('track', 'InitiateCheckout');
+        }
+    }
+    // Checkout events end
+
+    function getUniqueProductIdsOnPage() {
+        return Array.prototype.reduce.call(document.querySelectorAll('[data-product], [data-product-id]'), function(acc, obj) {
+            var productId = obj.getAttribute('data-product') || obj.getAttribute('data-product-id');
+
+            if (!productIdMap[productId]) {
+                productIdMap[productId] = true;
+                acc.push(productId);
+            }
+
+            return acc;
+        }, []);
+    }
+
+    function getUrlParameter(name) {
+        var cleanName = name.replace(/[\[]/, '\[').replace(/[\]]/, '\]');
+        var regex = new RegExp('[\?&]' + cleanName + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+}
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="null" src="https://www.facebook.com/tr?id=2393199934097009&ev=PageView&noscript=1&a=plbigcommerce1.2&eid="/></noscript>
+
+<!-- End Tracking Code for analytics_facebook -->
+
+<!-- Start Tracking Code for analytics_googleanalytics -->
+
+<script>
+    !function(){var analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.loadPlatform=function(t,e,a,o){window[o||"analytics"]=analytics;window._analytics_js_global_name=o;analytics.platformSettings=e;analytics.platformPlan=a;var r=document.createElement("script");r.type="text/javascript";r.defer=!0;r.src="https://cdn11.bigcommerce.com/shared/js/storefront/analytics-c7af4d4e323cc1137c45f692e81cae05fd2a3986.js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)};analytics.SNIPPET_VERSION="4.0.0_platform";
+        analytics.loadPlatform("", { "Google Analytics": {"enhancedLinkAttribution":true,"enhancedEcommerce":true,"includeSearch":true,"sendUserId":true,"trackingId":"UA-6009599-1","dimensions":[],"metrics":[]} }, {}, "analytics");
+        analytics.identify();
+        analytics.page();
+        
+        analytics.ready(function () {
+            ga('require', 'ec');
+            ga('require', 'linker');
+            ga('linker:autoLink', ["www.jatashop.com","ad.buybutton.store","store-oo0gdojvjo.mybigcommerce.com","www.store-oo0gdojvjo.mybigcommerce.com"]);
+        });
+    }}();
+</script>
+
+<!-- End Tracking Code for analytics_googleanalytics -->
+
+<!-- Start Tracking Code for analytics_siteverification -->
+
+<meta name="google-site-verification" content="duFVNtBm-v5ZOuzJClVHXQqxPHzqN0mFxVc7HCUT9hM" />
+<meta name="facebook-domain-verification" content="4s88qe4ot9ysljh4fx2yz9m1jgsxbr" />
+<meta name="y_key" content="0fe225e3490fb72d" />
+<meta name="msvalidate.01" content="605EC8FA8BF4A940C09C3F6E00A0B03C"/>
+<meta name='msvalidate.01' content='EE22AA0349DEE8CD39EFBBE7182B9D15'/>
+
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5796645"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2393199934097009');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2393199934097009&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 1051544512 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1051544512"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-1051544512');
+</script>
+
+<!-- End Tracking Code for analytics_siteverification -->
+
+
+
+	
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/menudrop.js?"></script>
+	<script src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/iselector.js?"></script>
+	<script src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/jquery/plugins/jquery.flexslider.js"></script>
+    <script src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/viewport.js?"></script>
+
+	<!-- Theme bespoke js -->
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/matchMedia.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/common.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/jquery.autobox.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/init.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/jquery.uniform.min.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/main.js?"></script>
+
+	<script>
+	//<![CDATA[
+	config.ShopPath = 'https://www.jatashop.com';
+	config.AppPath = ''; // BIG-8939: Deprecated, do not use.
+	config.FastCart = 1;
+	config.ShowCookieWarning = !!0;
+	var ThumbImageWidth = 220;
+	var ThumbImageHeight = 290;
+	//]]>
+	</script>
+	<script type="text/javascript">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', 'https://awid9mr9fd.execute-api.us-east-1.amazonaws.com/prod/nobot');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"store_id":"1000199913","timezone_offset":"-8","timestamp":"2021-03-13T06:06:49.11811100Z","channel_id":1,"visit_id":"fb7ce9e6-bc66-4380-8d4c-59d0d9e5861b"}');
+
+    xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', '/events/trigger-visit-event');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"initiator":{"id":"","session_id":"d4b5457bb81329c86aa3808e3132cde2532efc93","type":"ANONYMOUS","visit_id":"fb7ce9e6-bc66-4380-8d4c-59d0d9e5861b","visitor_id":"b870d2f7-47a6-4fcf-9a81-72c1d06b5872","facebook_event_id":""},"referer":{"url":""},"request":{"url":"https:\/\/store-oo0gdojvjo.mybigcommerce.com:80\/images\/stencil\/1280x1280\/products\/27535\/37385\/moose-sculpted-stoneware-coffee-mugs-set-of-6-wild-wings__90228.1537877573.jpg?c=2&amp;imbypass=on"}}');
+})();
+</script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/jquery/plugins/jquery.form.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/jquery/plugins/imodal/imodal.js"></script>
+<script type="text/javascript" src="https://checkout-sdk.bigcommerce.com/v1/loader.js" defer></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/vendor/bower_components/braintree-web/index.js" defer></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/braintree.js" defer></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/vendor/bower_components/form-poster/dist/form-poster.min.js" defer></script>
+<script type="text/javascript" src="https://assets.secure.checkout.visa.com/checkout-widget/resources/js/integration/v1/sdk.js" defer></script>
+<script type="text/javascript" src="https://checkout-sdk.bigcommerce.com/v1/loader.js"></script>
+<script type="text/javascript">
+var BCData = {"csrf_token":"f5cbddf8c7b34fa8b02c903683cb375086c81a66e85e7be3b5b63e241f871826"};
+</script>
+
+	
+	<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/quicksearch.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+    <body>
+        
+<div id="DrawerMenu">
+    <div class="inner">
+        <div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListClassic">
+            <ul class="category-list">	<li class=""><a href="https://www.jatashop.com/artificial-silk-florals/">Artificial Silk Florals</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/auto-accessories/">Auto Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/bathroom-accessories/">Bathroom Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/candles/">Candles</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/christmas-decor/">Christmas Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/coasters/">Coasters</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/collegiate-products/">Collegiate Products</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/crystal-figurines/">Crystal Figurines</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/furniture/">Furniture</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/gifts/">Gifts</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/home-accessories/">Home Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/kitchen-dining/">Kitchen &amp; Dining</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lawn-garden/">Lawn &amp; Garden</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lighting/">Lighting</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/pillows/">Pillows</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/rugs/">Rugs</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/sculptures/">Sculptures</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/southwest-decor/">Southwest Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/statues/">Statues</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wall-decor/">Wall Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/western-decor/">Western Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wildlife-decor/">Wildlife Decor</a>
+	
+	</li></ul>
+        </div>
+    </div>
+</div>
+
+        <div class="BrandList Moveable Panel slist" id="SideShopByBrand" style="display: ">
+    <h3>Brands</h3>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="https://www.jatashop.com/heritage-pewter/">Heritage Pewter</a></li><li><a href="https://www.jatashop.com/art-classics-ltd/">Art Classics Ltd</a></li><li><a href="https://www.jatashop.com/fanmats/">Fanmats</a></li><li><a href="https://www.jatashop.com/red-horse-signs/">Red Horse Signs</a></li><li><a href="https://www.jatashop.com/ironwood-industries/">Ironwood Industries</a></li><li><a href="https://www.jatashop.com/thirstystone/">Thirstystone</a></li><li><a href="https://www.jatashop.com/wild-wings/">Wild Wings</a></li><li><a href="https://www.jatashop.com/cosmos/">Cosmos</a></li><li><a href="https://www.jatashop.com/earth-rugs/">Earth Rugs</a></li><li><a href="https://www.jatashop.com/american-dakota/">American Dakota</a></li>
+            <li><a href="https://www.jatashop.com/brands/">View all brands</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div class="Block Moveable Panel" id="SideCategoryShopByPrice" style="display:none;"></div>
+        <div class="AdditionalInformationList Moveable Panel slist" id="SideAdditionalInformation">
+    <h3>Additional Information</h3>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="/">Home</a></li>
+        </ul>
+        <ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://www.jatashop.com/terms-conditions/"><span>Terms &amp; Conditions</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/shipping-returns/"><span>Shipping &amp; Returns</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/contact-us/"><span>Contact Us</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/testimonials/"><span>Testimonials</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/coupons-promotions/"><span>Coupons &amp; Promotions</span></a>
+		
+	</li>
+</ul>
+    </div>
+</div>
+
+        <div class="AccountNavigationList Moveable Panel slist" id="SideAccountNavigation">
+    <h3>Site Information</h3>
+    <div class="BlockContent js-side-account-menu">
+        <!-- Fill with content from TopMenu -->
+    </div>
+</div>
+<script>
+
+(function ($, window) {
+    'use strict';
+
+    var bcTheme = window.bcTheme || {};
+    bcTheme.mobile = bcTheme.mobile || {};
+
+    var MobileAccountMenu = function MobileAccountMenu(){};
+
+    MobileAccountMenu.prototype.init = function init ( selector ) {
+        this.$element = $(selector);
+
+        this.cloneTopMenu();
+        this.setCurrencyConvertor();
+        this.bindEvents();
+
+    };
+
+    MobileAccountMenu.prototype.cloneTopMenu = function cloneTopMenu () {
+        // Cloning from top menu as Globals don't work down here.
+        var $topMenuClone = $('.TopMenu ul').clone(),
+            $phoneNumber = $('<a />', {
+                'text': $('.js-drawermenu-store-phone-container').find('.phoneIcon').text(),
+                'href': 'tel:' + $('.js-drawermenu-store-phone-container').find('.js-drawermenu-store-phone').text()
+            });
+        //Modify the cloned menu to make phone clickable and hide stuff we don't need
+        $topMenuClone.find('.phoneIcon').replaceWith( $phoneNumber );
+        $topMenuClone.find('.js-drawermenu-cart').remove();
+        //append new menu to drawer
+        this.$element.append( $topMenuClone );
+    };
+
+    MobileAccountMenu.prototype.setCurrencyConvertor = function setCurrencyConvertor () {
+        this.$mobileCurrencyConverter = this.$element.find('.js-drawermenu-currency-converter');
+        this.$mobileSelectedCurrency = this.$mobileCurrencyConverter.find('.selected-currency');
+        this.$mobileCurrencyList = this.$mobileCurrencyConverter.find('.CurrencyList');
+    };
+
+    MobileAccountMenu.prototype.bindEvents = function bindEvents () {
+        var that = this;
+
+        this.$mobileSelectedCurrency.on('click', function(e) {
+            e.preventDefault();
+            that.$mobileSelectedCurrency.toggleClass('open');
+            that.$mobileCurrencyList.toggleClass('open');
+        });
+    };
+
+    bcTheme.mobile.accountMenu = new MobileAccountMenu();
+
+    window.bcTheme = window.bcTheme || bcTheme;
+
+}(jQuery, window));
+
+$(function () {
+    bcTheme.mobile.accountMenu.init('.js-side-account-menu');
+});
+
+</script>
+
+    </div>
+</div>
+<script>
+//<![CDATA[
+    $(function(){
+
+        //Drawer Subnavigation Accordion
+        $('#DrawerMenu li ul').addClass('drawer-subcat');
+        $('#DrawerMenu .drawer-subcat').prev('a').after('<span class="subcat-expand"></span>');
+        $('#DrawerMenu .subcat-expand').click(function(){
+            $(this).next('.drawer-subcat').toggleClass('expanded');
+            $(this).toggleClass('subcat-expanded');
+        });
+
+    });
+//]]>
+</script>
+
+
+        <div class="page">
+            <div class="header">
+	<div class="inner">
+
+		<div id="AjaxLoading">
+			<div class="ajax-loader">
+				<img src="https://cdn11.bigcommerce.com/r-03b8fdf5d1037c0feebbcedfd701c709422a962e/themes/ClassicNext/images/loader.png" alt="" />&nbsp;Loading... Please wait...
+			</div>
+		</div>
+
+		
+		
+<div class="TopMenu">
+    <div class="inner">
+        <ul style="display:">
+            <li class="js-drawermenu-store-phone-container"  style="display: none;">
+                <div class="phoneIcon">Call us on <span class="js-drawermenu-store-phone"></span></div>
+            </li>
+            <li style="display:none" class="HeaderLiveChat">
+                
+            </li>
+            <li style="display:" class="First">
+                <a href="https://www.jatashop.com/account.php">My Account</a>
+            </li>
+            <li><a href="https://www.jatashop.com/giftcertificates.php">Gift Certificates</a></li>
+            <li style="display:" class="wishLink">
+                <a href="https://www.jatashop.com/wishlist.php">Wish Lists</a>
+            </li>
+            <li style="display:">
+                <div><a href='https://www.jatashop.com/login.php' onclick=''>Sign in</a> or <a href='https://www.jatashop.com/login.php?action=create_account' onclick=''>Create an account</a></div>
+            </li>
+            <li class="js-drawermenu-currency-converter">
+                <div class="Block Moveable Panel" id="SideCurrencySelector" style="display:none;"></div>
+            </li>
+            <li class="last CartLink js-drawermenu-cart" style="display:">
+                <i class="icon icon-cart" title="View Cart">&nbsp;</i><a href="https://www.jatashop.com/cart.php" title="View Cart"><span></span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+		<div id="Header">
+			<div class="inner">
+				<div id="ToggleMenu" class="fa fa-bars normal"></div>
+				<div class="header-logo">
+					<a href="https://www.jatashop.com/"><img src="/product_images/jatashop_logo-bigcommerce_1537929634__65158.png" border="0" id="LogoImage" alt="JataShop" /></a>
+
+				</div>
+				<div class="header-secondary">
+					<div id="SearchForm" class="cf">
+	<form action="https://www.jatashop.com/search.php" method="get" onsubmit="return check_small_search_form()">
+		<label for="search_query">Search</label>
+		<input type="text" name="search_query" id="search_query" class="Textbox autobox" value="Search" />
+		<input type="submit" class="Button" value="" name="Search" title="Search" />
+	</form>
+</div>
+
+<script type="text/javascript">
+	var QuickSearchAlignment = 'right';
+	var QuickSearchWidth = '390px';
+	lang.EmptySmallSearch = "You forgot to enter some search keywords.";
+	// uniform() is deprecated in Blueprint theme; remove binding below when removing uniform
+	$(document).ajaxComplete(function() {
+		$('input[type=checkbox], select').not('.UniApplied').uniform();
+	});
+</script>
+				</div>
+				<div id="cart-amount">
+					<a href="https://www.jatashop.com/cart.php" class="Cart"><span class="bag-handle"></span><span class="total">&nbsp;</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="PageMenu">
+			<div class="inner">
+				<div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListClassic">
+            <ul class="category-list">	<li class=""><a href="https://www.jatashop.com/artificial-silk-florals/">Artificial Silk Florals</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/auto-accessories/">Auto Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/bathroom-accessories/">Bathroom Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/candles/">Candles</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/christmas-decor/">Christmas Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/coasters/">Coasters</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/collegiate-products/">Collegiate Products</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/crystal-figurines/">Crystal Figurines</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/furniture/">Furniture</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/gifts/">Gifts</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/home-accessories/">Home Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/kitchen-dining/">Kitchen &amp; Dining</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lawn-garden/">Lawn &amp; Garden</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lighting/">Lighting</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/pillows/">Pillows</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/rugs/">Rugs</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/sculptures/">Sculptures</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/southwest-decor/">Southwest Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/statues/">Statues</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wall-decor/">Wall Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/western-decor/">Western Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wildlife-decor/">Wildlife Decor</a>
+	
+	</li></ul>
+        </div>
+    </div>
+</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+            <div class="main">
+                <div class="inner">
+                    
+                    <div class="Content Widest" id="LayoutColumn1">
+                        <h1 class="TitleHeading">Not Found</h1>
+                        <div class="BlockContent full-width">
+                            <p class="txt24">
+                                The page you were looking for appears to have been moved, deleted or does not exist.
+                            </p>
+                            <p>This is most likely due to:</p>
+                            <ul>
+                                <li>An outdated link on another site</li>
+                                <li>A typo in the address / URL</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="footer">
+	<div class="inner">
+
+		
+<div class="newsletter-subscription" id="SideNewsletterBox">
+	<div class="inner">
+		<div class="grid">
+			<div class="grid__item one-third">
+
+				<h4>Sign up for our newsletter</h4>
+				
+			</div>
+			<div class="grid__item two-thirds">
+
+				<form action="https://www.jatashop.com/subscribe.php" method="post" id="subscribe_form" class="subscribe_form" name="subscribe_form">
+					<input type="hidden" name="action" value="subscribe" />
+					<div class="grid">
+						<div class="grid__item two-fifths">
+							<label for="nl_first_name">Name</label>
+							<input class="Textbox autobox" value="Name" id="nl_first_name" name="nl_first_name" type="text" />
+						</div>
+						<div class="grid__item two-fifths">
+							<label for="nl_email">Email</label>
+							<input class="Textbox autobox" value="Email" id="nl_email" name="nl_email" type="email" />
+						</div>
+						<div class="grid__item one-fifth">
+
+							<input value="Submit" class="btn" type="submit" />
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// <!--
+	$('#subscribe_form').submit(function() {
+		if($('#nl_first_name').val() == '') {
+			alert('You forgot to type in your first name.');
+			$('#nl_first_name').focus();
+			return false;
+		}
+
+		if($('#nl_email').val() == '') {
+			alert('You forgot to type in your email address.');
+			$('#nl_email').focus();
+			return false;
+		}
+
+		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
+			alert('Please enter a valid email address, such as john@example.com.');
+			$('#nl_email').focus();
+			$('#nl_email').select();
+			return false;
+		}
+
+		// Set the action of the form to stop spammers
+		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
+		return true;
+
+	});
+// -->
+</script>
+
+
+
+		<div class="footer-main">
+			<div class="inner">
+				<div class="footer-columns grid">
+					<div class="grid__item one-quarter"><h4>Quick Links</h4><ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://www.jatashop.com/terms-conditions/"><span>Terms &amp; Conditions</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/shipping-returns/"><span>Shipping &amp; Returns</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/contact-us/"><span>Contact Us</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/testimonials/"><span>Testimonials</span></a>
+		
+	</li>	<li class=" ">
+		<a href="https://www.jatashop.com/coupons-promotions/"><span>Coupons &amp; Promotions</span></a>
+		
+	</li>
+</ul></div>
+					<div class="grid__item one-quarter"><div class="Block CategoryList Panel">
+    <h4>Categories</h4>
+    <div class="BlockContent">
+        <ul class="category-list">	<li class=""><a href="https://www.jatashop.com/artificial-silk-florals/">Artificial Silk Florals</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/auto-accessories/">Auto Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/bathroom-accessories/">Bathroom Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/candles/">Candles</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/christmas-decor/">Christmas Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/coasters/">Coasters</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/collegiate-products/">Collegiate Products</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/crystal-figurines/">Crystal Figurines</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/furniture/">Furniture</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/gifts/">Gifts</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/home-accessories/">Home Accessories</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/kitchen-dining/">Kitchen &amp; Dining</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lawn-garden/">Lawn &amp; Garden</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/lighting/">Lighting</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/pillows/">Pillows</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/rugs/">Rugs</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/sculptures/">Sculptures</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/southwest-decor/">Southwest Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/statues/">Statues</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wall-decor/">Wall Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/western-decor/">Western Decor</a>
+	
+	</li>	<li class=""><a href="https://www.jatashop.com/wildlife-decor/">Wildlife Decor</a>
+	
+	</li></ul>
+    </div>
+</div></div>
+					<div class="grid__item one-quarter"><div class="BrandList Moveable Panel slist" id="SideShopByBrand" style="display: ">
+    <h4>Brands</h4>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="https://www.jatashop.com/heritage-pewter/">Heritage Pewter</a></li><li><a href="https://www.jatashop.com/art-classics-ltd/">Art Classics Ltd</a></li><li><a href="https://www.jatashop.com/fanmats/">Fanmats</a></li><li><a href="https://www.jatashop.com/red-horse-signs/">Red Horse Signs</a></li><li><a href="https://www.jatashop.com/ironwood-industries/">Ironwood Industries</a></li><li><a href="https://www.jatashop.com/thirstystone/">Thirstystone</a></li><li><a href="https://www.jatashop.com/wild-wings/">Wild Wings</a></li><li><a href="https://www.jatashop.com/cosmos/">Cosmos</a></li><li><a href="https://www.jatashop.com/earth-rugs/">Earth Rugs</a></li><li><a href="https://www.jatashop.com/american-dakota/">American Dakota</a></li>
+            <li><a href="https://www.jatashop.com/brands/">View all brands</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+					<div class="grid__item one-quarter"><div id="socnet" class="Block SocialConnect Moveable Panel">
+	<ul>
+		<li><a href="https://www.facebook.com/Jatashop/" target="_blank" class="icon-social icon-facebook" title="Facebook">Facebook</a></li>
+<li><a href="https://www.pinterest.com/jatashop/" target="_blank" class="icon-social icon-pinterest" title="Pinterest">Pinterest</a></li>
+<li><a href="https://twitter.com/Jatashop" target="_blank" class="icon-social icon-twitter" title="Twitter">Twitter</a></li>
+
+	</ul>
+</div></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-links">
+			<div class="inner">
+				<p>
+					<span id="currencyPrices">All prices are in <span title='US Dollars'>USD</span>.</span> &copy; 2021 JataShop. <a href="https://www.jatashop.com/sitemap/"><span>Sitemap</span></a>
+
+              		<span class="powered-by">Powered by <a rel="nofollow" href="http://www.bigcommerce.com">BigCommerce</a></span>
+                </p>
+				
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/bc_pinstrumentation.min.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-808a8d9bcaf9c333500533d515eabca4276b8c40/javascript/visitor.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// attach fast cart event to all 'add to cart' link
+	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
+		fastCartAction($(this).attr('href'));
+		return false;
+	});
+});
+</script>
+
+
+        </div>
+    <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-b572e5526f6854c73a5e080ef15a771f963740ae.js"></script></body>
+</html>
